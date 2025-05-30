@@ -12,5 +12,5 @@
 <h2>Day 2</h2>
 <p>- Focused in player character movement</p>
 <p>- Learned node states and node state machine for player character movement</p>
-<p>- Used script of node state and node state machine by [rapidvectors](https://github.com/rapidvectors)</p>
+<p>- Used script of node state and node state machine by <a href="https://github.com/rapidvectors">rapidvectors</a></p>
 <p>- Animated animations for player character and tilemap scene</p>
