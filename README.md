@@ -21,5 +21,7 @@
 <br>
 <h2>Day 3</h2>
 <p>- Learning further player state machines for other actions</p>
-<p>- Learning further player state machines for other actions</p>
+<p>- Created script for tools. Listed object tools</p>
+<p>- Created node states for chopping, watering, and tilling animations</p>
+<p>- Edited walking script to allow diagonal movement using x and y axis</p>
 
