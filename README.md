@@ -14,9 +14,12 @@
 <p>- Focused in player character movement</p>
 <p>- Learned node states and node state machine for player character movement</p>
 <p>- Used <a href="https://github.com/rapidvectors/tutorial-components-and-scripts/tree/main/tutorials/croptails">script</a> of node state and node state machine by <a href="https://github.com/rapidvectors">rapidvectors</a></p>
-<p>- Provided keyboard input, including controller support, for movement</p>
+<p>- Provided keyboard input for movement</p>
+<p>- <i>Included controller support</i></p>
 <p>- Learned how to use and debug for node states with idle and walk</p>
 
 <br>
 <h2>Day 3</h2>
 <p>- Learning further player state machines for other actions</p>
+<p>- Learning further player state machines for other actions</p>
+
