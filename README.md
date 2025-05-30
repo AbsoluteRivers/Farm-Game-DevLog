@@ -24,4 +24,5 @@
 <p>- Created script for tools. Listed object tools</p>
 <p>- Created node states for chopping, watering, and tilling animations</p>
 <p>- <i>Edited walking script to allow diagonal movement using x and y axis</i></p>
+<p>- Provided input mapping for hit/interaction</p>
 
