@@ -29,4 +29,4 @@
 <p>- Added action script for interaction animation</p>
 <p>- <i>Added cancel action script. Will check if correct usage</i></p>
 <p>- Learning tilesets and tilemap layers</p>
-<p>- Learned more about Godot general UI</p>
+<p>- House scene and physics apply on tilesets</p>
