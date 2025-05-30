@@ -30,3 +30,4 @@
 <p>- <i>Added cancel action script. Will check if correct usage</i></p>
 <p>- Learning tilesets and tilemap layers</p>
 <p>- House scene and physics apply on tilesets</p>
+<p>- Created 2 types of houses. Still unsure about physics layers, collision layers, and collision maps</p>
