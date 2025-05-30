@@ -28,4 +28,5 @@
 <p>- Provided input mapping for hit/interaction</p>
 <p>- Added action script for interaction animation</p>
 <p>- <i>Added cancel action script. Will check if correct usage</i></p>
-
+<p>- Learning tilesets and tilemap layers</p>
+<p>- Learned more about Godot general UI</p>
