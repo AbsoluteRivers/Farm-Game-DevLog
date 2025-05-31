@@ -40,5 +40,6 @@
 <i>might use extensible components in crops or similar</i><br>
 - Learn dragging nodes onto script while pressing ctrl will create an onready variable<br>
 - <i>Included collision on edges of ground. Made player collide with edges so water is not accessible.</i><br>
-  
+- Learned sprite2d node<br>
+- 
 </p>
