@@ -36,6 +36,6 @@
 <h2>Day 4</h2>
 <p>- Learn how to create custom components that will be interactable; House door<br>
 - Dive deeper about collision layers(where the collision is) and collision mask(what will collide with the collision shape)<br>
-
+- Using extensible components(if going to use similar actions) to interact with door<br>
 
 </p>
