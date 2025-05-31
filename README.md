@@ -4,9 +4,9 @@
 
 <hr>
 <h2>Day 1</h2>
-<p>- Learned nodes, scenes, and tilemaps
-- Used free assets <a href="https://cupnooble.itch.io/sprout-lands-asset-pack">SproutLands by CupNooble</a> on itch.io
-- Set tilesets onto atlas manually
+<p>- Learned nodes, scenes, and tilemaps<br>
+- Used free assets <a href="https://cupnooble.itch.io/sprout-lands-asset-pack">SproutLands by CupNooble</a> on itch.io<br>
+- Set tilesets onto atlas manually<br>
 - Animated animations for player character and tilemap scene</p>
 <br>
 
