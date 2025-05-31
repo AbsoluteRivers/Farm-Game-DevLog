@@ -39,6 +39,6 @@
 - Using extensible components(if going to use similar actions) to interact with door<br>
 <i>might use extensible components in crops or similar</i><br>
 - Learn dragging nodes onto script while pressing ctrl will create an onready variable<br>
-- Included collision on edges of ground. Made player collide with edges so water is not accessible.<br>
+- <i>Included collision on edges of ground. Made player collide with edges so water is not accessible.</i><br>
   
 </p>
