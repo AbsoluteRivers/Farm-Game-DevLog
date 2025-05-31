@@ -34,4 +34,8 @@
 <br>
 
 <h2>Day 4</h2>
-<p></p>
+<p>- Learn how to create custom components that will be interactable; House door<br>
+
+
+
+</p>
