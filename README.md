@@ -54,5 +54,6 @@
   - Learn to create npc animals (chicken) and navigation agent 2d with avoidance and a navigation region 2d to limit movement of NPC<br>
   - <i>Used idea how to create characters to create chicken npc basics on own. Little scripts, no movement</i><br>
   - Learned of Timer method of gdscript (not yet fleshed out, just an introduction)<br>
-  - 
+  - Learned how to script for npc movement and how to debug the walking animation<br>
+  <i>Tip: using canvas items (Project Settings, Windows, Stretch) along a navigation agent will have improve interpolation (remove bouncing movement/staircase effect)</i>
 </p>
