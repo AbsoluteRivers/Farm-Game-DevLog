@@ -25,7 +25,7 @@
 <p>- Learning further player state machines for other actions<br>
 - Created script for tools. Listed object tools<br>
 - Created node states for chopping, watering, and tilling animations<br>
-<i>  *remember to turn looping in animation off*</i><br>
+<i>  Tip: remember to turn looping in animation off</i><br>
 - <i>Edited walking script to allow diagonal movement using x and y axis</i><br>
 - Provided input mapping for hit/interaction<br>
 - Added action script for interaction animation<br>
@@ -49,10 +49,10 @@
 <h2>Day 5</h2>
 <p>
   - Learn Y-sorting to move behind and infront of objects<br>
-  <i>*if character and tilemap layer is y-sorted, root node should also be y-sorted*</i><br>
-  <i>*adjust y-sorting for each element under select, rendering, and y-sort origin*</i><br>
+  <i>Tip: if character and tilemap layer is y-sorted, root node should also be y-sorted</i><br>
+  <i>Tip: adjust y-sorting for each element under select, rendering, and y-sort origin</i><br>
   - Learn to create npc animals (chicken) and navigation agent 2d with avoidance and a navigation region 2d to limit movement of NPC<br>
-  - <i>Used idea how to create characters to create chicken npc basics on own</i><br>
-  - Learned of Timer method of gdscript<br>
+  - <i>Used idea how to create characters to create chicken npc basics on own. Little scripts, no movement</i><br>
+  - Learned of Timer method of gdscript (not yet fleshed out, just an introduction)<br>
   - 
 </p>
