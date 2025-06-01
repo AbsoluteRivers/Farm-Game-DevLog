@@ -49,4 +49,7 @@
   - Learn Y-sorting to move behind and infront of objects<br>
   <i>*if character and tilemap layer is y-sorted, root node should also be y-sorted*</i><br>
   <i>*adjust y-sorting for each element under select, rendering, and y-sort origin*</i><br>
+  - Learn to create npc animals (chicken) and navigation agent 2d with avoidance and a navigation region 2d to limit movement of NPC<br>
+  - <i>Used idea how to create characters to create chicken npc basics on own</i><br>
+  - Learned of Timer method of gdscript<br>
 </p>
