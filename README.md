@@ -41,6 +41,10 @@
 - Learn dragging nodes onto script while pressing ctrl will create an onready variable<br>
 - <i>Included collision on edges of ground. Made player collide with edges so water is not accessible.</i><br>
 - <i>Created object scene using Sprite2d node (rocks, trees)</i><br>
-- Created hitbox and hurtbox (not yet using fully)<br>
-  
+- Created hitbox and hurtbox (not yet using fully)<br></p>
+
+<br>
+<h2>Day 5</h2>
+<p>
+  - Learn Y-sorting to move behind and infront of objects<br>
 </p>
