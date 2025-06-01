@@ -55,5 +55,7 @@
   - <i>Used idea how to create characters to create chicken npc basics on own. Little scripts, no movement</i><br>
   - Learned of Timer method of gdscript (not yet fleshed out, just an introduction)<br>
   - Learned how to script for npc movement and how to debug the walking animation<br>
-  <i>Tip: using canvas items (Project Settings, Windows, Stretch) along a navigation agent will have improve interpolation (remove bouncing movement/staircase effect)</i>
+  <i>Tip: using canvas items (Project Settings, Windows, Stretch) along a navigation agent will have improve interpolation (remove bouncing movement/staircase effect). The movement of the agent can be interpolated to create smoother transitions between path points</i><br>
+  - Learned how npc avoid colliding with each other<br>
+  *<i>Error: multiple NPC(chickens) always head to 1 specific pixel within the navigation region (0,0) before getting random position</i><br>
 </p>
