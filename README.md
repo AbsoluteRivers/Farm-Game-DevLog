@@ -58,4 +58,10 @@
   <i>Tip: using canvas items (Project Settings, Windows, Stretch) along a navigation agent will have improve interpolation (remove bouncing movement/staircase effect). The movement of the agent can be interpolated to create smoother transitions between path points</i><br>
   - Learned how npc avoid colliding with each other<br>
   *<i>Error: multiple NPC(chickens) always head to 1 specific pixel within the navigation region (0,0) before getting random position</i><br>
+  *<i>Fix: doubled await code on character setup to wait for a random position</i><br>
+  - Learn randomized walk cycles for npc<br>
+</p>
+<h5>Notes:</h5>
+<p>
+  -Might create cow NPC tomorrow, apply all learned<br>
 </p>
