@@ -4,7 +4,9 @@
 
 <hr>
 <h2>Day 1</h2>
-<p>- Learned nodes, scenes, and tilemaps<br>
+<p>
+- Following a <a href ="https://www.youtube.com/watch?v=it0lsREGdmc&list=PLWTXKdBN8RZe3ytf6qdR4g1JRy0j-93v9&ab_channel=RapidVectors">farming game tutorial in Godot</a> by <a href="https://www.youtube.com/@rapidvectors">Rapid Vectors</a><br>
+- Learned nodes, scenes, and tilemaps<br>
 - Used free assets <a href="https://cupnooble.itch.io/sprout-lands-asset-pack">SproutLands by CupNooble</a> on itch.io<br>
 - Set tilesets onto atlas manually<br>
 - Animated animations for player character and tilemap scene</p>
@@ -35,7 +37,7 @@
 
 <h2>Day 4</h2>
 <p>- Learn how to create custom components that will be interactable; House door<br>
-- Dive deeper about collision layers(where the collision is) and collision mask(what will collide with the collision shape)<br>
+- <i>Understood deeper about collision layers(where the collision is) and collision mask(what will collide with the collision shape)</i><br>
 - Using extensible components(if going to use similar actions) to interact with door<br>
 <i>might use extensible components in crops or similar</i><br>
 - Learn dragging nodes onto script while pressing ctrl will create an onready variable<br>
@@ -52,4 +54,5 @@
   - Learn to create npc animals (chicken) and navigation agent 2d with avoidance and a navigation region 2d to limit movement of NPC<br>
   - <i>Used idea how to create characters to create chicken npc basics on own</i><br>
   - Learned of Timer method of gdscript<br>
+  - 
 </p>
