@@ -46,5 +46,5 @@
 <br>
 <h2>Day 5</h2>
 <p>
-  - Learn Y-sorting to move behind and infront of objects<br>
+  - Learn Y-sorting to move behind and infront of objects <i>*if character and tilemap layer is y-sorted, root node should also be y-sorted*</i><br>
 </p>
