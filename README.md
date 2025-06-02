@@ -63,5 +63,11 @@
 </p>
 <h5>Notes:</h5>
 <p>
-  -Might create cow NPC tomorrow, apply all learned<br>
+  - Might create cow NPC tomorrow, apply all learned<br>
+</p>
+
+<br>
+<h2>Day 6</h2>
+<p>
+  - <i>Creating cow NPC on own with reusable scripts from chicken NPC</i> <br>
 </p>
