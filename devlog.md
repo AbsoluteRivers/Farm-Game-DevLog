@@ -1,6 +1,6 @@
-### Farm-Game-Devlog
+## Farm-Game-Devlog
 
-  <h1></h1>
+
 <h2>Day 1</h2>
 <p>
 - Following a <a href ="https://www.youtube.com/watch?v=it0lsREGdmc&list=PLWTXKdBN8RZe3ytf6qdR4g1JRy0j-93v9&ab_channel=RapidVectors">farming game tutorial in Godot</a> by <a href="https://www.youtube.com/@rapidvectors">Rapid Vectors</a><br>
