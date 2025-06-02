@@ -1,4 +1,4 @@
-# Farm-Game-Devlog
+# **Farm-Game-Devlog**
 
 
 ## Day 1 (5/28/2025)
@@ -18,7 +18,7 @@
 - Learned node states and node state machine for player character movement  
 - Used [script](https://github.com/rapidvectors/tutorial-components-and-scripts/tree/main/tutorials/croptails) of node state and node state machine by [rapidvectors](https://github.com/rapidvectors)  
 - Provided keyboard input for movement  
-- <i>Included controller support</i>  
+- *Included controller support*  
 - Learned how to use and debug for node states with idle and walk  
 
 
