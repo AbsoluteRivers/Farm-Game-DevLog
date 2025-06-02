@@ -3,6 +3,7 @@
 
 ### Day 1
 
+#### Progress
 - Following a [farming game tutorial](https://www.youtube.com/watch?v=it0lsREGdmc&list=PLWTXKdBN8RZe3ytf6qdR4g1JRy0j-93v9&ab_channel=RapidVectors) in Godot by [Rapid Vectors](https://www.youtube.com/@rapidvectors)
 - Learned nodes, scenes, and tilemaps
 - Used free assets <a href="https://cupnooble.itch.io/sprout-lands-asset-pack">SproutLands by CupNooble</a> on itch.io
