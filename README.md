@@ -70,4 +70,5 @@
 <h2>Day 6</h2>
 <p>
   - <i>Creating cow NPC on own with reusable scripts from chicken NPC</i> <br>
+   *<i>Error: Cow NPC unable to transition to walk, stuck on idle</i><br>
 </p>
