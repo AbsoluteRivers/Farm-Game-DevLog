@@ -75,5 +75,5 @@
   - <i>Provided sprint animation for player character</i> <br>
   - Learned how to make navigation polygon to work with tilemap<br>
   *<i>Tip: In geometry of NavigationRegion, make source geometry mode group explicit and copy soure geometry name. Paste source geometry name on necessary tilemap(Node, Groups) then bake navigation polygon</i><br>
-  *<i>Tip: If NavigationRegion exceeds the grouped tilemap, NavigationArea will merge to (0,0). Align the NavigationRegion along the necessary tiles to prevent</i><br>
+  *<i>Tip: If NavigationRegion exceeds the grouped tilemap, NavigationArea will merge to (0,0). Align the NavigationRegion along the necessary tile edges to prevent</i><br>
 </p>
