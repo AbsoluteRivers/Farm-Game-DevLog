@@ -1,13 +1,11 @@
 # Farm-Game-DevLog
 
-<p>This is a DevLog for my learning steps in creating a farming game in Godot 4</p>
+<p>This is a DevLog for my learning steps in creating a farming game in Godot 4 following a <a href ="https://www.youtube.com/watch?v=it0lsREGdmc&list=PLWTXKdBN8RZe3ytf6qdR4g1JRy0j-93v9&ab_channel=RapidVectors">farming game tutorial in Godot</a> by <a href="https://www.youtube.com/@rapidvectors">Rapid Vectors</a>. Assets used are free assets <a href="https://cupnooble.itch.io/sprout-lands-asset-pack">SproutLands by CupNooble</a> on itch.io<br></p>
 
 <hr>
 <h2>Day 1</h2>
 <p>
-- Following a <a href ="https://www.youtube.com/watch?v=it0lsREGdmc&list=PLWTXKdBN8RZe3ytf6qdR4g1JRy0j-93v9&ab_channel=RapidVectors">farming game tutorial in Godot</a> by <a href="https://www.youtube.com/@rapidvectors">Rapid Vectors</a><br>
 - Learned nodes, scenes, and tilemaps<br>
-- Used free assets <a href="https://cupnooble.itch.io/sprout-lands-asset-pack">SproutLands by CupNooble</a> on itch.io<br>
 - Set tilesets onto atlas manually<br>
 - Animated animations for player character and tilemap scene</p>
 <br>
