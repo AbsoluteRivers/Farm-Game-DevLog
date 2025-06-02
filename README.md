@@ -72,4 +72,5 @@
   - <i>Creating cow NPC on own with reusable scripts from chicken NPC</i> <br>
    *<i>Error: Cow NPC unable to transition to walk, stuck on idle</i><br>
   *<i>Fix: did not initialize idle node on parent node so cow doesnt transition</i><br>
+  - <i>Provided sprint animation for player character</i> <br>
 </p>
