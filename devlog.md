@@ -1,7 +1,7 @@
 # Farm-Game-Devlog
 
 
-### Day 1
+## Day 1 (5/28/2025)
 
 #### Progress
 - Following a [farming game tutorial](https://www.youtube.com/watch?v=it0lsREGdmc&list=PLWTXKdBN8RZe3ytf6qdR4g1JRy0j-93v9&ab_channel=RapidVectors) in Godot by [Rapid Vectors](https://www.youtube.com/@rapidvectors)
@@ -11,7 +11,9 @@
 - Animated animations for player character and tilemap scene
 
 
-<h2>Day 2</h2>
+## Day 2 (5/29/2025)
+
+#### Progress
 <p>- Focused in player character movement<br>
 - Learned node states and node state machine for player character movement<br>
 - Used <a href="https://github.com/rapidvectors/tutorial-components-and-scripts/tree/main/tutorials/croptails">script</a> of node state and node state machine by <a href="https://github.com/rapidvectors">rapidvectors</a><br>
@@ -19,8 +21,10 @@
 - <i>Included controller support</i><br>
 - Learned how to use and debug for node states with idle and walk</p>
 
-<br>
-<h2>Day 3</h2>
+
+## Day 3 (5/30/2025)
+
+#### Progress
 <p>- Learning further player state machines for other actions<br>
 - Created script for tools. Listed object tools<br>
 - Created node states for chopping, watering, and tilling animations<br>
@@ -32,9 +36,11 @@
 - Learning tilesets and tilemap layers<br>
 - House scene and physics apply on tilesets<br>
 - Created 2 types of houses. Still unsure about physics layers, collision layers, and collision maps</p>
-<br>
 
-<h2>Day 4</h2>
+
+## Day 4 (5/31/2025)
+
+#### Progress
 <p>- Learn how to create custom components that will be interactable; House door<br>
 - <i>Understood deeper about collision layers(where the collision is) and collision mask(what will collide with the collision shape)</i><br>
 - Using extensible components(if going to use similar actions) to interact with door<br>
@@ -44,9 +50,10 @@
 - <i>Created object scene using Sprite2d node (rocks, trees)</i><br>
 - Created hitbox and hurtbox (not yet using fully)<br></p>
 
-<br>
-<h2>Day 5</h2>
-<p>
+
+## Day 5 (6/1/2025)
+
+#### Progress
   - Learn Y-sorting to move behind and infront of objects<br>
   <i>Tip: if character and tilemap layer is y-sorted, root node should also be y-sorted</i><br>
   <i>Tip: adjust y-sorting for each element under select, rendering, and y-sort origin</i><br>
@@ -65,16 +72,17 @@
   - Might create cow NPC tomorrow, apply all learned<br>
 </p>
 
-<br>
-<h2>Day 6</h2>
-<p>
+
+## Day 6 (6/2/2025)
+
+#### Progress
   - <i>Creating cow NPC on own with reusable scripts from chicken NPC</i> <br>
-   *<i>Error: Cow NPC unable to transition to walk, stuck on idle</i><br>
+  *<i>Error: Cow NPC unable to transition to walk, stuck on idle</i><br>
   *<i>Fix: did not initialize idle node on parent node so cow doesnt transition</i><br>
   - <i>Provided sprint animation for player character</i> <br>
   - Learned how to make navigation polygon to work with tilemap<br>
   *<i>Tip: In geometry of NavigationRegion, make source geometry mode group explicit and copy soure geometry name. Paste source geometry name on necessary tilemap(Node, Groups) then bake navigation polygon</i><br>
   *<i>Tip: If NavigationRegion exceeds the grouped tilemap, NavigationArea will merge to (0,0). Align the NavigationRegion along the necessary tile edges to prevent this from happening</i><br>
-</p>
+
 
 
