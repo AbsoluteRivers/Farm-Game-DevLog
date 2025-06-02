@@ -1,6 +1,6 @@
 # **Farm-Game-DevLog**  
 
-> This is a WIP Farming Game made with Godot4 as my learning steps in development following a [farming game tutorial in Godot](https://www.youtube.com/watch?v=it0lsREGdmc&list=PLWTXKdBN8RZe3ytf6qdR4g1JRy0j-93v9&ab_channel=RapidVectors) by [Rapid Vectors](https://www.youtube.com/@rapidvectors). Assets used are free assets [SproutLands by CupNooble](https://cupnooble.itch.io/sprout-lands-asset-pack) on itch.io  
+> This is a WIP Farming Game made with Godot4 as my learning steps in development following a [farming game tutorial in Godot](https://www.youtube.com/watch?v=it0lsREGdmc&list=PLWTXKdBN8RZe3ytf6qdR4g1JRy0j-93v9&ab_channel=RapidVectors) by [Rapid Vectors](https://github.com/rapidvectors). Assets used are free assets [SproutLands by CupNooble](https://cupnooble.itch.io/sprout-lands-asset-pack) on itch.io  
 
 ---
 
