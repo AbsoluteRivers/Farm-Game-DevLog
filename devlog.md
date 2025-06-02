@@ -63,8 +63,8 @@
   - Learned how to script for npc movement and how to debug the walking animation  
   *Tip: using canvas items (Project Settings, Windows, Stretch) along a navigation agent will have improve interpolation (remove bouncing movement/staircase effect). The movement of the agent can be interpolated to create smoother transitions between path points*  
   - Learned how npc avoid colliding with each other  
-  **Error: multiple NPC(chickens) always head to 1 specific pixel within the navigation region (0,0) before getting random position*  
-  **Fix: doubled await code on character setup to wait for a random position*  
+  *Error: multiple NPC(chickens) always head to 1 specific pixel within the navigation region (0,0) before getting random position*  
+  *Fix: doubled await code on character setup to wait for a random position*  
   - Learn randomized walk cycles for npc  
 
 ##### Notes:
@@ -77,12 +77,12 @@
 
 #### Progress
   - <i>Creating cow NPC on own with reusable scripts from chicken NPC</i>  
-  **Error: Cow NPC unable to transition to walk, stuck on idle*  
-  **Fix: did not initialize idle node on parent node so cow doesnt transition*  
+  *Error: Cow NPC unable to transition to walk, stuck on idle*  
+  *Fix: did not initialize idle node on parent node so cow doesnt transition*  
   - <i>Provided sprint animation for player character</i>  
   - Learned how to make navigation polygon to work with tilemap  
-  **Tip: In geometry of NavigationRegion, make source geometry mode group explicit and copy soure geometry name. Paste source geometry name on necessary tilemap(Node, Groups) then bake navigation polygon*  
-  **Tip: If NavigationRegion exceeds the grouped tilemap, NavigationArea will merge to (0,0). Align the NavigationRegion along the necessary tile edges to prevent this from happening*  
+  *Tip: In geometry of NavigationRegion, make source geometry mode group explicit and copy soure geometry name. Paste source geometry name on necessary tilemap(Node, Groups) then bake navigation polygon*  
+  *Tip: If NavigationRegion exceeds the grouped tilemap, NavigationArea will merge to (0,0). Align the NavigationRegion along the necessary tile edges to prevent this from happening*  
 
 
 
