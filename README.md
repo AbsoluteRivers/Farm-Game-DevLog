@@ -73,4 +73,6 @@
    *<i>Error: Cow NPC unable to transition to walk, stuck on idle</i><br>
   *<i>Fix: did not initialize idle node on parent node so cow doesnt transition</i><br>
   - <i>Provided sprint animation for player character</i> <br>
+  - Learned how to make navigation polygon to work with tilemap<br>
+  *<i>Tip: In geometry of NavigationRegion, make source geometry mode group explicit and copy soure geometry name. Paste source geometry name on necessary tilemap(Node, Groups) then bake navigation polygon</i><br>
 </p>
