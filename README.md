@@ -21,7 +21,7 @@
 - Weather System
 - Save and Load System
 
-####### Most features are based on tutorial. Customizing and adding features as I go
+###### Most features are based on tutorial. Customizing and adding features as I go
 ---
 
 ## Getting Started
