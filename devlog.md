@@ -85,4 +85,13 @@
   *Tip: If NavigationRegion exceeds the grouped tilemap, NavigationArea will merge to (0,0). Align the NavigationRegion along the necessary tile edges to prevent this from happening*  
 
 
+## Day 7 (6/3/2025)  
 
+### Progress  
+  - Learned UI integration for tools panel  
+  - Learned StyleClasses/StyleResources to make different styles for the same type of control control  
+    *Tip: this makes different styles for a button or panel*  
+    *Error: unable to find region tab on NewAtlasTexture to edit region*  
+    *Fix: Somehow worked out, it fixed itself when the NewAtlasTexture was reloaded*  
+    *Note: will apply different UI type later on*
+  - 
