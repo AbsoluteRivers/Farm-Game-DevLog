@@ -94,4 +94,9 @@
     *Error: unable to find region tab on NewAtlasTexture to edit region*  
     *Fix: Somehow worked out, it fixed itself when the NewAtlasTexture was reloaded*  
     *Note: will apply different UI type later on*
-  - 
+
+
+## Day 8 (6/4/2025)  
+
+### Progress  
+  - Continue with learning UI integration
