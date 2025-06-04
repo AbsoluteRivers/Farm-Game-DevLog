@@ -99,6 +99,10 @@
 ## Day 8 (6/4/2025)  
 
 ### Progress  
-  - Continue with learning UI integration *(actually restarted from start of UI learning)*
-    *Error: margins don't autoset at the button region so button texture is not visible*
-    *Fix: forgot to set custom minumum size x and y of button*
+  - Continue with learning UI integration *(actually restarted from start of UI learning)*  
+    *Error: margins don't autoset at the button region so button texture is not visible*  
+    *Fix: forgot to set custom minumum size x and y of button*  
+  - Upon revisiting, undewrstood the UI better and more clearly  
+  - *Included an unarmed slot*  
+    *Note: Might use the unarmed slot for holding materials*  
+    *Note: Made a diagonal UI box. Will edit graphics to match the aesthetic soon*  
