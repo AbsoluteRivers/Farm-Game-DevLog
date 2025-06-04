@@ -99,4 +99,6 @@
 ## Day 8 (6/4/2025)  
 
 ### Progress  
-  - Continue with learning UI integration
+  - Continue with learning UI integration *(actually restarted from start of UI learning)*
+    *Error: margins don't autoset at the button region so button texture is not visible*
+    *Fix: forgot to set custom minumum size x and y of button*
