@@ -106,3 +106,11 @@
   - *Included an unarmed slot*  
     *Note: Might use the unarmed slot for holding materials*  
     *Note: Made a diagonal UI box. Will edit graphics to match the aesthetic soon*  
+  - Learned the game overlay UI to implement the tools UI  
+  - Made a tools_manager script and made it global  
+  - *Applying a fix to animation wherein animation won't hit if mouse hovers on tool panel UI*  
+  - *Figured out a script to identify if UI is hovered/entered by mouse*  
+    *Bug: Still unable to fix the animation. Will get back in the future*
+
+
+
