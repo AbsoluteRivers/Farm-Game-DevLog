@@ -113,4 +113,11 @@
     *Bug: Still unable to fix the animation. Will get back in the future*
 
 
+## Day 9 (6/5/2024)  
 
+
+### Progress
+  - Learned how to make collectible items using collectible components  
+  - *Used idea of collectible components to provide an area that attracts the collectible towards the player*  
+    *Note: Will come back to that idea soon*  
+  - Learned inventory UI for collected materials  
