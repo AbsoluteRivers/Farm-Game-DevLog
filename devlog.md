@@ -128,6 +128,7 @@
 
 
 ### Progress
-  - Continued inventory UI costumizable
-    *Tip: Don't forget to put the string name for the collectable_name under collectable_component*
+  - Continued inventory UI costumizable  
+    *Tip: Don't forget to put the string name for the collectable_name under collectable_component*  
   - Learned a global inventory script. *Will implement on the collapsable inventory soon*
+  - 
