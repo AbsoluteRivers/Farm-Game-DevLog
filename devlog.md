@@ -122,3 +122,12 @@
     *Note: Will come back to that idea soon*  
   - Learned inventory UI for collected materials
   - *Made inventory UI closable*  
+
+
+## Day 10 (6/6/2024)
+
+
+### Progress
+  - Continued inventory UI costumizable
+    *Tip: Don't forget to put the string name for the collectable_name under collectable_component*
+  - Learned a global inventory script. *Will implement on the collapsable inventory soon*
