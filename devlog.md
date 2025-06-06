@@ -129,9 +129,11 @@
 
 ### Progress
   - Continued inventory UI costumizable  
-    *Tip: Don't forget to put the string name for the collectable_name under collectable_component*  
-  - Learned a global inventory script. *Will implement on the collapsable inventory soon*
-    *Tip: Don't use elif when separately checking as it will check the first argument first and will not consider the other elif statements*
-  - Learned about Day-Night Cycles
-  - Created a Day-Night global script
-  - *Replaced one button as next day button*
+    *Tip: Don't forget to put the string name for the collectable_name under collectable_component*   
+  - Learned a global inventory script. *Will implement on the collapsable inventory soon*  
+    *Tip: Don't use elif when separately checking as it will check the first argument first and will not consider the other elif statements*  
+  - Learned about Day-Night Cycles  
+  - Created a Day-Night global script  
+    *Note: Replaced one button as next day button but not yet working*  
+    *Note: Cannot grab focus of 2 buttons at the same time*  
+  -  
