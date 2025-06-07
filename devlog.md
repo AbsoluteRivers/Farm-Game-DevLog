@@ -136,4 +136,12 @@
   - Created a Day-Night global script  
     *Note: Replaced one button as next day button but not yet working*  
     *Note: Cannot grab focus of 2 buttons at the same time*  
-  -  
+
+
+## Day 11 (6/7/2024)
+
+
+### Progress
+  - Learned how to create farming crops
+  - Created growth cycle component and updated data_types global script with enums for growth cycle
+  - 
