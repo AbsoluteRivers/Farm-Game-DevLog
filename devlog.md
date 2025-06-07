@@ -142,6 +142,11 @@
 
 
 ### Progress
-  - Learned how to create farming crops
-  - Created growth cycle component and updated data_types global script with enums for growth cycle
-  - 
+  - Learned how to create farming crops  
+  - Created growth cycle component and updated data_types global script with enums for growth cycle  
+  - Provided script on corn node to access growth cycle component and hurt components  
+    *Tip: Don't forget to put the hit component on the relative node or "tool" to activate hurt component, else script won't work*
+    *Tip: Watch the position of commands in function carefully*
+    *Bug: Visual bug on crop, stuck on seed*
+    *Fix: Changed the data to match seedling*
+    *Bug: Hit component missing scripts*
