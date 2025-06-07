@@ -149,4 +149,6 @@
     *Tip: Watch the position of commands in function carefully*  
     *Bug: Visual bug on crop, stuck on seed*  
     *Fix: Changed the data to match seedling*  
-    *Bug: Hit component missing scripts*  
+    *Bug: Hit component missing scripts*
+    *Fix: Provide change od data type tool on_enter so the tool maches the hit component*  
+    *Bug: Cannot collect the corn after cycle ends. Turns back to Mature crop next day*
