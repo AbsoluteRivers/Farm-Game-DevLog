@@ -160,4 +160,7 @@
 ### Progress
   - Continued bug fixing corn collect bug  
     *Fix: Needed to connect harvest function from growth cycle component and instantiate the scene to call it and replace global position of the node2d with the current node. Queue free to remove the node. Was incomplete trying to fix using ifelse on processing function*
-  - Made tomato plant with the same components
+  - Made tomato plant with the same components  
+  - Fix y-sorting for player and necessary object components  
+
+
