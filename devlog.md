@@ -113,7 +113,7 @@
     *Bug: Still unable to fix the animation. Will get back in the future*
 
 
-## Day 9 (6/5/2024)  
+## Day 9 (6/5/2025)  
 
 
 ### Progress
@@ -124,7 +124,7 @@
   - *Made inventory UI closable*  
 
 
-## Day 10 (6/6/2024)
+## Day 10 (6/6/2025)
 
 
 ### Progress
@@ -138,7 +138,7 @@
     *Note: Cannot grab focus of 2 buttons at the same time*  
 
 
-## Day 11 (6/7/2024)
+## Day 11 (6/7/2025)
 
 
 ### Progress
@@ -151,4 +151,7 @@
     *Fix: Changed the data to match seedling*  
     *Bug: Hit component missing scripts*  
     *Fix: Provide change od data type tool on_enter so the tool maches the hit component*  
-    *Bug: Cannot collect the corn after cycle ends. Turns back to Mature crop next day*
+    *Bug: Cannot collect the corn after cycle ends. Turns back to Mature crop next day*  
+
+
+## Day 12 (6/8/2025)
