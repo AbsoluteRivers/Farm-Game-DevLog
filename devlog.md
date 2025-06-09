@@ -170,5 +170,5 @@
 ### Progress  
   - Learn to add dynamic tiles for tilling land  
   - Made a component for tlling land  
-    *Bug: Land is unable to be tilled*
+    *Bug: Land is unable to be tilled*  
     *Fix: Allocated a different terrain from the terrain set onto the component*
