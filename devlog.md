@@ -182,3 +182,4 @@
   - *Implemented button that allows you to switch between seeds*  
   - *Created buttons that call scenes*
   - *Able to brute force button switching using visibility triggers*
+    *Note: Could approach it differently with instantiating scenes*
