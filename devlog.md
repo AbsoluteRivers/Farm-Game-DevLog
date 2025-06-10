@@ -172,3 +172,11 @@
   - Made a component for tlling land  
     *Bug: Land is unable to be tilled*  
     *Fix: Allocated a different terrain from the terrain set onto the component*
+
+
+## Day 14 (6/10/2025)
+
+
+### Progress  
+  - Continued dynamic tiles and added planting mechanic
+  - *Implemented button that allows you to switch between seeds*
