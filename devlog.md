@@ -179,8 +179,8 @@
 
 ### Progress  
   - Continued dynamic tiles and added planting mechanic  
-  - *Implemented button that allows you to switch between seeds*  
-  - *Created buttons that call scenes*
-    *Error: Unable to switch button scenes*
-  - *Fix: Able to brute force button switching using visibility triggers*
-    *Note: Could approach it differently with instantiating scenes*
+  - *Implemented button that allows you to switch between seeds*   
+  - *Created buttons that call scenes*  
+    *Error: Unable to switch button scenes*  
+  - *Fix: Able to brute force button switching using visibility triggers*  
+    *Note: Could approach it differently with instantiating scenes*  
