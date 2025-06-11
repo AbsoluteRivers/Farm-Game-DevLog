@@ -183,4 +183,9 @@
   - *Created buttons that call scenes*  
     *Error: Unable to switch button scenes*  
   - *Fix: Able to brute force button switching using visibility triggers*  
-    *Note: Could approach it differently with instantiating scenes*  
+    *Note: Could approach it differently with instantiating scenes. Will adapt in the future*
+
+ ## Day 15 (6/11/2025)
+
+ ### Program
+   - 
