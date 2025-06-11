@@ -190,4 +190,4 @@
  ### Program
    - Learned save states and resource inheritance  
    - Attatched the save data component on necessary resource and create another component on the main scene (game level) which saves all the nodes that have a save data component (Tomato and Corn scenes)  
-   - Created a separate test scene save data node to check whether the components and the code works  
+   - Created a separate test scene save data node to check whether the components and the code works. Allows to save test scenes differently from the main game    
