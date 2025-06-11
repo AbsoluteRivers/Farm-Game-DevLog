@@ -168,7 +168,7 @@
 
 
 ### Progress  
-  - Learn to add dynamic tiles for tilling land  
+  - Learned to add dynamic tiles for tilling land  
   - Made a component for tlling land  
     *Bug: Land is unable to be tilled*  
     *Fix: Allocated a different terrain from the terrain set onto the component*
@@ -188,4 +188,5 @@
  ## Day 15 (6/11/2025)
 
  ### Program
-   - 
+   - Learned save states and resource inheritance
+   - Attatched the save data component on necessary resource and create another component on the game scene which saves all the nodes that have a save data component (Tomato and Corn scenes)  
