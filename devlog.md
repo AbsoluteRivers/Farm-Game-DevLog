@@ -189,4 +189,4 @@
 
  ### Program
    - Learned save states and resource inheritance
-   - Attatched the save data component on necessary resource and create another component on the game scene which saves all the nodes that have a save data component (Tomato and Corn scenes)  
+   - Attatched the save data component on necessary resource and create another component on the main scene (game level) which saves all the nodes that have a save data component (Tomato and Corn scenes)  
