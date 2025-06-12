@@ -12,3 +12,4 @@ eport_presets.cfg
 *.swp
 scenes/test_folder/
 icon.svg
+*.tmp
