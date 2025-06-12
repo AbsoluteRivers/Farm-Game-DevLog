@@ -199,7 +199,8 @@
 
 ### Progress
   - Pushed project onto GitHub repository (still in a work in progress)  
-  - Edited .gitignore
+  - Edited .gitignore for github
+  - Continued debugging the save/load components of game    
     *Bug: Encountered a visual bug that allows planting on untilled soil*  
     *Error: Unable to save due to nonexistent function call in base Resource*  
     *Fix: Script attatched to the resource was not the correct script. The confusion was because it was named the same yet the script was nonexistent, hence the call for the function _save_data was an error since there was no function to be called*
