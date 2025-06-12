@@ -185,9 +185,17 @@
   - *Fix: Able to brute force button switching using visibility triggers*  
     *Note: Could approach it differently with instantiating scenes. Will adapt in the future*
 
+
  ## Day 15 (6/11/2025)
 
- ### Program
+ ### Progress
    - Learned save states and resource inheritance  
    - Attatched the save data component on necessary resource and create another component on the main scene (game level) which saves all the nodes that have a save data component (Tomato and Corn scenes)  
    - Created a separate test scene save data node to check whether the components and the code works. Allows to save test scenes differently from the main game    
+
+
+## Day 16 (6/12/2025)
+
+
+### Progress
+  - Pushed project onto GitHub repository (still in a work in progress)  
