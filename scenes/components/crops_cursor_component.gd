@@ -42,7 +42,7 @@ func get_cell_under_mouse() -> void:
 	cell_source_id = tilled_soil_tile_layer.get_cell_source_id(cell_position)
 	local_cell_position = tilled_soil_tile_layer.map_to_local(cell_position)
 	distance = player_character.global_position.distance_to(local_cell_position)
-	print("source id: ", cell_source_id," & cell position: ", cell_position)
+	#print("source id: ", cell_source_id," & cell position: ", cell_position)
 	
 
 func add_crop() -> void:

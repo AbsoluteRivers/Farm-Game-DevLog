@@ -53,7 +53,7 @@ func load_game() -> void:
 	var level_save_file_name: String = save_file_name % level_scene_name
 	var save_game_path: String = save_game_data_path + level_save_file_name
 	
-	if !FileAccess.file_exists(save_game_data_path):
+	if !FileAccess.file_exists(save_game_path):
 		return
 	
 	game_data_resource = ResourceLoader.load(save_game_path)
