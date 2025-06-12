@@ -66,10 +66,7 @@
   *Error: multiple NPC(chickens) always head to 1 specific pixel within the navigation region (0,0) before getting random position*  
   *Fix: doubled await code on character setup to wait for a random position*  
   - Learn randomized walk cycles for npc  
-
-##### Notes:
-
-  - Might create cow NPC tomorrow, apply all learned  
+  *Notes: Might create cow NPC tomorrow, apply all learned*  
 
 
 
@@ -207,4 +204,4 @@
     *Fix: Script attatched to the resource was not the correct script. The confusion was because it was named the same yet the script was nonexistent, hence the call for the function _save_data was an error since there was no function to be called*
     *Bug: Unable to load the saved data*  
     *Fix: Corrected the mistaken argument at ResourceLoader.load()*  
-  - 
+  - *Note: Will listen back to the full explanation of the save/load components to further understand the workings of the code*  
