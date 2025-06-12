@@ -12,14 +12,14 @@
 ---
 
 ## Features (In Progress)
-- Basic tile-based movement *(Included controller support, sprinting and diagonal movement)*
-- Tool usage using state machines
-- NPC/Animal behaviors
-- Crop system
-- Inventory and item pickup
-- Day and Night cycle
-- Weather System
-- Save and Load System
+- ✔️ Basic tile-based movement *(Included controller support, sprinting and diagonal movement)*
+- ✔️ Tool usage using state machines
+- ✔️ NPC/Animal behaviors
+- ✔️ Crop system
+- ✔️ Inventory and item pickup
+- ✔️ Day and Night cycle
+- 🔨 Weather System
+- ⏳ Save and Load System
 
 ###### Most features are based on tutorial. Customizing and adding features as I go
 ---
@@ -39,7 +39,7 @@
 
 
 ## Planned Features
-- NPC interactions
-- Fishing mini-game
-- Crafting system
-- House upgrades
+- 💭 NPC interactions
+- 💭 Fishing mini-game
+- 💀 Crafting system
+- 💭 House upgrades
