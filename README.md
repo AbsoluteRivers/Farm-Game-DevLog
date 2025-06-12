@@ -39,7 +39,7 @@
 
 
 ## Planned Features
-- NPC interactions
-- Fishing mini-game
-- Crafting system
-- House upgrades
+- 💭 NPC interactions
+- 💭 Fishing mini-game
+- 💀 Crafting system
+- 💭 House upgrades
