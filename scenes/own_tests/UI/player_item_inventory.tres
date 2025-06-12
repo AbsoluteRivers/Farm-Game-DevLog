@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="InvPanel" load_steps=3 format=3 uid="uid://drxfs3vx6ugt7"]
+
+[ext_resource type="Script" uid="uid://c0jjy6rlt05fs" path="res://scenes/own_tests/UI/inventory_item.gd" id="1_tfaqm"]
+[ext_resource type="Script" uid="uid://dv4cgog0gjvq" path="res://scenes/own_tests/UI/inventory.gd" id="2_8d2j7"]
+
+[resource]
+script = ExtResource("2_8d2j7")
+items = Array[ExtResource("1_tfaqm")]([null, null, null, null, null, null])
+metadata/_custom_type_script = "uid://dv4cgog0gjvq"

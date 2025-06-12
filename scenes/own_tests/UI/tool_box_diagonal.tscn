@@ -1,0 +1,63 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpncbm050v80b"]
+
+[ext_resource type="Theme" uid="uid://2qoqjpb30h4f" path="res://scenes/own_tests/UI/game_ui_diagon_theme.tres" id="1_sotyl"]
+
+[node name="ToolBoxDiagonal" type="PanelContainer"]
+offset_right = 62.0
+offset_bottom = 61.0
+rotation = 0.785398
+theme = ExtResource("1_sotyl")
+theme_type_variation = &"diagonal_panel"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer"]
+layout_mode = 2
+columns = 3
+
+[node name="Button" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_type_variation = &"diagonal_button_lay"
+
+[node name="empty_cn" type="Control" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="Button3" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="empty_cn2" type="Control" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(14, 14)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="Button5" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(14, 14)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="empty_cn3" type="Control" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(14, 14)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="Button7" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="empty_cn4" type="Control" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(18, 18)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="Button9" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+size_flags_horizontal = 0

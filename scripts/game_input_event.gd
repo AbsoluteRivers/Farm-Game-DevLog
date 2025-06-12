@@ -1,0 +1,42 @@
+class_name GameInputEvent
+
+static var direction: Vector2
+
+static func movement_input() -> Vector2:
+	if Input.is_action_pressed("move_left"):
+		direction = Vector2.LEFT
+	elif Input.is_action_pressed("move_right"):
+		direction = Vector2.RIGHT
+	elif Input.is_action_pressed("move_up"):
+		direction = Vector2.UP
+	elif Input.is_action_pressed("move_down"):
+		direction = Vector2.DOWN
+	else:
+		direction = Vector2.ZERO
+	
+	return direction
+
+
+static func is_movement_input() -> bool:
+	if direction == Vector2.ZERO:
+		return false
+	else:
+		return true
+	
+
+
+static func use_tool() -> bool:
+	var use_tool_value: bool = Input.is_action_just_pressed("interact")
+	
+	return use_tool_value
+
+
+static func cancel_action() -> bool:
+	var cancel_action_value: bool = Input.is_action_just_released("cancel")
+	
+	return cancel_action_value
+
+
+static func is_ui_interacting() -> bool:
+	var viewport: Viewport = Engine.get_main_loop().get_viewport()
+	return viewport.gui_get_hovered_control() != null

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cp4gjfcm0jra2"]
+
+[ext_resource type="Theme" uid="uid://2qoqjpb30h4f" path="res://scenes/own_tests/UI/game_ui_diagon_theme.tres" id="1_df2mn"]
+
+[node name="InventorySlot" type="Panel"]
+custom_minimum_size = Vector2(16, 16)
+theme = ExtResource("1_df2mn")
+theme_type_variation = &"panel_slots"

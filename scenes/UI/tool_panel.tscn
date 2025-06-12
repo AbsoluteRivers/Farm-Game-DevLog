@@ -1,0 +1,170 @@
+[gd_scene load_steps=15 format=3 uid="uid://bddbq1qf5v6dr"]
+
+[ext_resource type="Theme" uid="uid://csfhbnloec3rr" path="res://scenes/UI/game_ui_theme.tres" id="1_gh2it"]
+[ext_resource type="Texture2D" uid="uid://cgpe2gid3ed30" path="res://asset/game/objects/Basic_tools_and_meterials.png" id="2_jpdgn"]
+[ext_resource type="Texture2D" uid="uid://ovg7pcmc5erg" path="res://asset/game/objects/none 16x16.png" id="2_qa0qx"]
+[ext_resource type="Script" uid="uid://ctfjl1hmw1nw7" path="res://scenes/UI/tool_panel.gd" id="2_t1x07"]
+[ext_resource type="Texture2D" uid="uid://blu0t4mbsnwbr" path="res://asset/game/objects/Basic_Plants.png" id="4_xjtql"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u4lkv"]
+atlas = ExtResource("2_qa0qx")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qa0qx"]
+load_path = "res://.godot/imported/Basic_tools_and_meterials.png-833cc69053b27dcf41d9f9a7afe87da8.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1x07"]
+atlas = SubResource("CompressedTexture2D_qa0qx")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jpdgn"]
+load_path = "res://.godot/imported/Basic_tools_and_meterials.png-833cc69053b27dcf41d9f9a7afe87da8.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xjtql"]
+atlas = SubResource("CompressedTexture2D_jpdgn")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qa0qx"]
+atlas = ExtResource("2_jpdgn")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tord3"]
+atlas = ExtResource("4_xjtql")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_t1x07"]
+load_path = "res://.godot/imported/Basic_Plants.png-7b8cdf92da768261de35d35d5a8339f2.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c0d1a"]
+atlas = SubResource("CompressedTexture2D_t1x07")
+region = Rect2(2, 18, 12, 13)
+
+[node name="tool_box" type="PanelContainer"]
+offset_right = 41.0
+offset_bottom = 40.0
+theme = ExtResource("1_gh2it")
+theme_type_variation = &"DarkWoodPanel"
+script = ExtResource("2_t1x07")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="unarmed_tool" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+theme_type_variation = &"tool_button"
+icon = SubResource("AtlasTexture_u4lkv")
+icon_alignment = 1
+
+[node name="water_can_tool" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+theme_type_variation = &"tool_button"
+icon = SubResource("AtlasTexture_t1x07")
+icon_alignment = 1
+
+[node name="hoe_tool" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+theme_type_variation = &"tool_button"
+icon = SubResource("AtlasTexture_xjtql")
+icon_alignment = 1
+
+[node name="axe_tool" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+theme_type_variation = &"tool_button"
+icon = SubResource("AtlasTexture_qa0qx")
+icon_alignment = 1
+
+[node name="seed_tool" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+theme_type_variation = &"tool_button"
+icon = SubResource("AtlasTexture_tord3")
+icon_alignment = 1
+
+[node name="l_button" type="Button" parent="MarginContainer/HBoxContainer/seed_tool"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -6.0
+offset_top = -5.0
+offset_bottom = 5.0
+grow_horizontal = 0
+grow_vertical = 2
+theme = ExtResource("1_gh2it")
+theme_type_variation = &"prev_next_button"
+
+[node name="r_button" type="Button" parent="MarginContainer/HBoxContainer/seed_tool"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -5.0
+offset_right = 6.0
+offset_bottom = 5.0
+grow_vertical = 2
+theme = ExtResource("1_gh2it")
+theme_type_variation = &"prev_next_button_2"
+
+[node name="tomato_seed_tool" type="Button" parent="MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+theme_type_variation = &"tool_button"
+icon = SubResource("AtlasTexture_c0d1a")
+icon_alignment = 1
+
+[node name="tomato_l_button" type="Button" parent="MarginContainer/HBoxContainer/tomato_seed_tool"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -6.0
+offset_top = -5.0
+offset_bottom = 5.0
+grow_horizontal = 0
+grow_vertical = 2
+theme = ExtResource("1_gh2it")
+theme_type_variation = &"prev_next_button"
+
+[node name="tomato_r_button" type="Button" parent="MarginContainer/HBoxContainer/tomato_seed_tool"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -5.0
+offset_right = 6.0
+offset_bottom = 5.0
+grow_vertical = 2
+theme = ExtResource("1_gh2it")
+theme_type_variation = &"prev_next_button_2"
+
+[connection signal="mouse_entered" from="MarginContainer/HBoxContainer/unarmed_tool" to="." method="_on_unarmed_tool_mouse_entered"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/unarmed_tool" to="." method="_on_unarmed_tool_pressed"]
+[connection signal="mouse_entered" from="MarginContainer/HBoxContainer/water_can_tool" to="." method="_on_water_can_tool_mouse_entered"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/water_can_tool" to="." method="_on_water_can_tool_pressed"]
+[connection signal="mouse_entered" from="MarginContainer/HBoxContainer/hoe_tool" to="." method="_on_hoe_tool_mouse_entered"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/hoe_tool" to="." method="_on_hoe_tool_pressed"]
+[connection signal="mouse_entered" from="MarginContainer/HBoxContainer/axe_tool" to="." method="_on_axe_tool_mouse_entered"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/axe_tool" to="." method="_on_axe_tool_pressed"]
+[connection signal="mouse_entered" from="MarginContainer/HBoxContainer/seed_tool" to="." method="_on_seed_tool_mouse_entered"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/seed_tool" to="." method="_on_seed_tool_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/seed_tool/l_button" to="." method="_on_l_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/seed_tool/r_button" to="." method="_on_r_button_pressed"]
+[connection signal="mouse_entered" from="MarginContainer/HBoxContainer/tomato_seed_tool" to="." method="_on_seed_tool_mouse_entered"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/tomato_seed_tool" to="." method="_on_tomato_seed_tool_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/tomato_seed_tool/tomato_l_button" to="." method="_on_tomato_l_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/tomato_seed_tool/tomato_r_button" to="." method="_on_tomato_r_button_pressed"]

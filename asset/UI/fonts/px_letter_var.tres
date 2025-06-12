@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://dspesgccryrs"]
+
+[ext_resource type="FontFile" uid="uid://bbdf2nkcy8yvg" path="res://asset/UI/fonts/pixelFont-7-8x14-sproutLands.ttf" id="1_06ceq"]
+
+[resource]
+base_font = ExtResource("1_06ceq")
+spacing_glyph = -1

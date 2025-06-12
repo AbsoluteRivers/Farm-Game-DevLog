@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv25g3hvtvsxc"]
+
+[ext_resource type="Script" uid="uid://7qcptvixwffq" path="res://scenes/own_tests/own_components/magnetic_component.gd" id="1_362tc"]
+
+[node name="magnetic_component" type="Area2D"]
+collision_layer = 512
+collision_mask = 2
+script = ExtResource("1_362tc")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

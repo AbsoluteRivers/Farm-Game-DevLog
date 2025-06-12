@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://clt3dtephx5i4"]
+
+[ext_resource type="Theme" uid="uid://csfhbnloec3rr" path="res://scenes/UI/game_ui_theme.tres" id="1_msb1a"]
+[ext_resource type="Texture2D" uid="uid://blu0t4mbsnwbr" path="res://asset/game/objects/Basic_Plants.png" id="2_jhxji"]
+[ext_resource type="Script" uid="uid://cb6t4yk8u8c8c" path="res://scenes/own_tests/UI/buttons/tomato_seed.gd" id="3_msb1a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_15g4s"]
+atlas = ExtResource("2_jhxji")
+region = Rect2(2, 18, 12, 13)
+
+[node name="CornSeed" type="Button"]
+offset_right = 24.0
+offset_bottom = 24.0
+theme = ExtResource("1_msb1a")
+theme_type_variation = &"tool_button"
+icon = SubResource("AtlasTexture_15g4s")
+icon_alignment = 1
+script = ExtResource("3_msb1a")

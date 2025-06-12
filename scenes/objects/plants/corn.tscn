@@ -1,0 +1,44 @@
+[gd_scene load_steps=10 format=3 uid="uid://qypm5ey16euw"]
+
+[ext_resource type="Script" uid="uid://vhnk5k6e0xuk" path="res://scenes/objects/plants/corn.gd" id="1_hgaca"]
+[ext_resource type="Texture2D" uid="uid://blu0t4mbsnwbr" path="res://asset/game/objects/Basic_Plants.png" id="1_hm4is"]
+[ext_resource type="PackedScene" uid="uid://cqjdewv8fsbi1" path="res://scenes/components/hurt_component.tscn" id="2_aphyd"]
+[ext_resource type="PackedScene" uid="uid://cewrq1pklqbid" path="res://scenes/objects/plants/watering_particles.tscn" id="2_ofjf8"]
+[ext_resource type="PackedScene" uid="uid://cjqudlv48834h" path="res://scenes/objects/plants/flowering_particles.tscn" id="3_ofjf8"]
+[ext_resource type="PackedScene" uid="uid://npyjjvogjolu" path="res://scenes/objects/plants/growth_cycle_component.tscn" id="4_5ucl7"]
+[ext_resource type="PackedScene" uid="uid://d28v6qcjuj16m" path="res://scenes/components/save_data_component.tscn" id="7_q3ekf"]
+[ext_resource type="Resource" uid="uid://buegiqm1fpbn8" path="res://resources/scene_data_resource.tres" id="8_310os"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ucl7"]
+size = Vector2(14, 8)
+
+[node name="corn" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_hgaca")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -4)
+texture = ExtResource("1_hm4is")
+hframes = 6
+vframes = 2
+frame = 1
+
+[node name="watering_particles" parent="." instance=ExtResource("2_ofjf8")]
+lifetime = 1.2
+speed_scale = 2.0
+explosiveness = 0.4
+
+[node name="flowering_particles" parent="." instance=ExtResource("3_ofjf8")]
+visible = false
+
+[node name="GrowthCycleComponent" parent="." instance=ExtResource("4_5ucl7")]
+
+[node name="HurtComponent" parent="." instance=ExtResource("2_aphyd")]
+tool = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtComponent"]
+position = Vector2(-1, -1)
+shape = SubResource("RectangleShape2D_5ucl7")
+
+[node name="SaveDataComponent" parent="." instance=ExtResource("7_q3ekf")]
+save_data_resource = ExtResource("8_310os")

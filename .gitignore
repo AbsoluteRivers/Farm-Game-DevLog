@@ -1,0 +1,14 @@
+# Godot 4+ specific ignores
+.godot/
+.import/
+.mono/
+export.cfg
+eport_presets.cfg
+*.godot
+*.import
+*.csproj
+*.sln
+*.user
+*.swp
+scenes/test_folder/
+icon.svg
