@@ -24,9 +24,9 @@ func save_node_data() -> void:
 	game_data_resource = SavedGameDataResource.new()
 	
 	if nodes != null:
-		for node in nodes:
+		for node: SaveDataComponent in nodes:
 			if node is SaveDataComponent:
-				var save_data_resource: NodeDataResource = node.save_data()
+				var save_data_resource: NodeDataResource = node._save_data()
 				var save_final_resource = save_data_resource.duplicate()
 				game_data_resource.save_data_nodes.append(save_final_resource)
 				#adds the theplicate of save_data_resource stored in save_final_resource on save_data_nodes of the SavedGameDataResource component

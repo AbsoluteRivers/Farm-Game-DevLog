@@ -14,9 +14,10 @@ func _save_data() -> Resource:
 	#returns a type of resource
 	if parent_node == null:
 		return null
+	
 	if save_data_resource == null:
 		push_error("save_data_resource: ", save_data_resource, parent_node.name)
-		return
+		return null
 		#error checks if a save data component was set up correctly with the parent node and resource
 	
 	save_data_resource._save_data(parent_node)
