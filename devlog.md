@@ -205,4 +205,6 @@
     *Fix: Impemented another if statement to check if the source_id under the mouse is a tilled soil or not (-1)*
     *Error: Unable to save due to nonexistent function call in base Resource*  
     *Fix: Script attatched to the resource was not the correct script. The confusion was because it was named the same yet the script was nonexistent, hence the call for the function _save_data was an error since there was no function to be called*
+    *Bug: Unable to load the saved data*  
+    *Fix: Corrected the mistaken argument at ResourceLoader.load()*  
   - 
