@@ -21,6 +21,8 @@ func _save_data() -> Resource:
 		#error checks if a save data component was set up correctly with the parent node and resource
 	
 	save_data_resource._save_data(parent_node)
+	#grabs the resource attatched from the SaveDataComponent and saves the resource of the parent node
 	
 	return save_data_resource
+	#return once the cells set from the resource
 	

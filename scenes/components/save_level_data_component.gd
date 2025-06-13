@@ -20,33 +20,40 @@ func _ready() -> void:
 
 func save_node_data() -> void:
 	var nodes = get_tree().get_nodes_in_group("save_data_component")
+	#gets all the nodes from the scene tree which have the group "save_data_component"
+	#all the nodes are collected onto the variable "nodes"
 	
 	game_data_resource = SavedGameDataResource.new()
+	#creates a new instance of sa SavedGameDataResource, an array of resources
 	
 	if nodes != null:
 		for node: SaveDataComponent in nodes:
 			if node is SaveDataComponent:
 				var save_data_resource: NodeDataResource = node._save_data()
+				#grabs the _save_data method from the save_data_component script-
 				var save_final_resource = save_data_resource.duplicate()
 				game_data_resource.save_data_nodes.append(save_final_resource)
-				#adds the theplicate of save_data_resource stored in save_final_resource on save_data_nodes of the SavedGameDataResource component
+				#adds the the duplicate of save_data_resource stored in save_final_resource on save_data_nodes of the SavedGameDataResource component
+				#adds the cells gathered from the resource onto the save_data_nodes collection
 				
 
 
 func save_game() -> void:
 	if !DirAccess.dir_exists_absolute(save_game_data_path):
 		DirAccess.make_dir_absolute(save_game_data_path)
-		#checks if the directory exists
+		#checks if the directory exists first
 		#if the directory does not exists, it will pass a script to make a directory
 	
 	var level_save_file_name: String = save_file_name % level_scene_name
 	#creates the correct file name using the level_scene name unto the save_file name
 	
 	save_node_data()
+	#saves the data of the attatched node
 	
 	var result: int = ResourceSaver.save(game_data_resource, save_game_data_path + level_save_file_name)
 	#save passes an argument 1 for the resource, argument 2 for the path, and argument 3 to check for flags
 	print("Save result: ", result)
+	#this function gets called by the global script save_game_manager and attatches the node the compoennt is attatched to
 	
 
 func load_game() -> void:

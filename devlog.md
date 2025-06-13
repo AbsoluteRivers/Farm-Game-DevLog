@@ -205,3 +205,10 @@
     *Bug: Unable to load the saved data*  
     *Fix: Corrected the mistaken argument at ResourceLoader.load()*  
   - *Note: Will listen back to the full explanation of the save/load components to further understand the workings of the code*  
+
+
+## Day 17 (6/13/2025)
+
+
+### Progress
+  - Added a few comments on the scripts that enforces how the code works and interacts with each other

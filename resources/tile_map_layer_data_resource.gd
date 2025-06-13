@@ -10,6 +10,7 @@ func _save_data(node: Node2D) -> void:
 	
 	var tilemap_layer: TileMapLayer = node as TileMapLayer
 	var cells: Array[Vector2i] = tilemap_layer.get_used_cells()
+	#gets cells used from the TileMapLayer and sets the cells onto the resource
 	
 	tilemap_layer_used_cells = cells
 
