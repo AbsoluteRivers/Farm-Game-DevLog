@@ -44,7 +44,7 @@
 
 
 #### Inventory Pop-Up
-![Inventory PopUp](asset/screenshots/inventory-activate.gif)
+![Inventory PopUp](asset/screenshots/inventory activate.gif)
 
 ---
 
