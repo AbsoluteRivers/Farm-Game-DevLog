@@ -39,12 +39,21 @@
 
 ## Screenshots
 
-#### Day and Night Cycle
-![Day-Night Cycle](asset/screenshots/day-night.gif)
+#### Movement
+![Movement](asset/screenshots/walk-and-idle.gif)  
 
+
+#### Day and Night Cycle
+![Day-Night Cycle](asset/screenshots/day-night.gif)  
+ 
 
 #### Inventory Pop-Up
-![Inventory PopUp](asset/screenshots/inventory activate.gif)
+![Inventory PopUp](asset/screenshots/inventory-activate.gif)  
+
+
+#### Planting
+![Planting](asset/screenshots/planting.gif)  
+
 
 ---
 
