@@ -59,19 +59,28 @@ func save_game() -> void:
 func load_game() -> void:
 	var level_save_file_name: String = save_file_name % level_scene_name
 	var save_game_path: String = save_game_data_path + level_save_file_name
+	#builds the level_save_file_name as a local variable
 	
 	if !FileAccess.file_exists(save_game_path):
 		return
+		#checks if the save_game_path file exists
 	
 	game_data_resource = ResourceLoader.load(save_game_path)
+	#this line of code will activate if the file exists as the file contains the data for the resource to load up
+	
 	
 	if game_data_resource == null:
 		return
 	
 	var root_node: Window = get_tree().root
+	#gets the tree root node
 	
 	for resource in game_data_resource.save_data_nodes:
+		#filters through every resource within the loaded path in save_data_nodes
+		#resources are the tile_map and scene_data
 		if resource is Resource:
 			if resource is NodeDataResource:
 				resource._load_data(root_node)
+				#loads the root_node of the resource once the checks are valid that the resource is a Resource type and a NodeDataResource class
+				
 	

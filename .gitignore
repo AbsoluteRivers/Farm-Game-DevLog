@@ -4,7 +4,7 @@
 .mono/
 export.cfg
 eport_presets.cfg
-*.godot
+#*.godot
 *.import
 *.csproj
 *.sln

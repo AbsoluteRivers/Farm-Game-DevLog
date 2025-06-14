@@ -12,6 +12,7 @@ func _save_data(node: Node2D) -> void:
 	node_name = node.name
 	scene_file_path = node.scene_file_path
 	
+	
 
 
 func _load_data(window: Window) -> void:
@@ -24,12 +25,17 @@ func _load_data(window: Window) -> void:
 	
 	if parent_node_path != null:
 		parent_node = window.get_node_or_null(parent_node_path)
+		#checks if the parent_node_path exists and sets the parent_node_path
 	
 	if node_path != null:
+		#checks if there is a node_path
 		var scene_file_resource: Resource = load(scene_file_path)
+		#loads the scene found wihtin the scene_file_path
 		scene_node = scene_file_resource.instantiate() as Node2D
+		#recreates the node scene using instantiate
 		
 	
 	if parent_node != null and scene_node != null:
 		scene_node.global_position = global_position
 		parent_node.add_child(scene_node)
+		#checks wether the parent and scene node exists simultaneously and adds the scene node to the parent node

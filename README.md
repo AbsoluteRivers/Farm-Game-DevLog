@@ -26,7 +26,7 @@
 
 ## Getting Started
 #### Requirements
-- Godot Engine 4.4
+- Godot Engine 4.4 (GDScript language)
 - No external dependencies
 
 #### Running the Game
