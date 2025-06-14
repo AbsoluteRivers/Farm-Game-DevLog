@@ -38,8 +38,13 @@
 ---
 
 ## Screenshots
+
+#### Day and Night Cycle
 ![Day-Night Cycle](asset/screenshots/day-night.gif)
 
+
+#### Inventory Pop-Up
+![Inventory PopUp](asset/screenshots/inventory-activate.gif)
 
 ---
 
