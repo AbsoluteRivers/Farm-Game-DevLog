@@ -40,20 +40,18 @@
 ## Screenshots
 
 <h4 align = "center"> Movement </h4>
-<img src = "asset/screenshots/walk-and-idle.gif" alt = "Movement" align = "center" />
+<img src = "asset/screenshots/walk-and-idle.gif" alt = "Movement" class = "center" />
 
 
-#### Day and Night Cycle
-![Day-Night Cycle](asset/screenshots/day-night.gif)  
+<h4 align = "center"> Day and Night Cycle </h4>
+<img src = "asset/screenshots/day-night.gif" alt = "Day-Night Cycle" class = "center" />
  
 
-#### Inventory Pop-Up
-![Inventory PopUp](asset/screenshots/inventory-activate.gif)  
+<h4 align = "center"> Inventory Pop-Up </h4>
+<img src = "asset/screenshots/inventory-activate.gif" alt = "Inventory PopUp" class = "center" />
 
-
-#### Planting
-![Planting](asset/screenshots/planting.gif)  
-
+<h4 align = "center"> Planting </h4>
+<img src = "asset/screenshots/planting.gif" alt = "Planting" class = "center" />
 
 ---
 
