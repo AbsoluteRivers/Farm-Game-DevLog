@@ -26,13 +26,19 @@
 
 ## Getting Started
 #### Requirements
-- Godot Engine 4.4 (GDScript language)
-- No external dependencies
+- Godot Engine 4.4 *(GDScript language)*  
+- No external dependencies  
 
 #### Running the Game
 - Open Godot
 - Click Import, then select the project.godot file
 - Run the game with the ▶️ play button
+
+
+---
+
+## Screenshots
+![Day-Night Cycle](asset/screenshots/day-night.gif)
 
 
 ---

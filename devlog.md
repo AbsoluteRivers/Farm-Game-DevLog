@@ -212,3 +212,16 @@
 
 ### Progress
   - Added a few comments on the scripts that enforces how the code works and interacts with each other
+  - No extensive coding done  
+
+
+
+## Day 18 (6/14/2025)
+
+
+### Progress
+  - Learn interactable NPC characters  
+    *Note: Might script out to overridew the interact button*  
+
+
+
