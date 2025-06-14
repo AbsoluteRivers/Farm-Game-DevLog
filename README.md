@@ -39,7 +39,7 @@
 
 ## Screenshots
 
-#### Movement
+<h4 align = "center"> Movement </h4>
 ![Movement](asset/screenshots/walk-and-idle.gif)  
 
 
