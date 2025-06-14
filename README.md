@@ -40,7 +40,7 @@
 ## Screenshots
 
 <h4 align = "center"> Movement </h4>
-![Movement](asset/screenshots/walk-and-idle.gif)  
+<img src = "asset/screenshots/walk-and-idle.gif" alt = "Movement" align = "center" />
 
 
 #### Day and Night Cycle
