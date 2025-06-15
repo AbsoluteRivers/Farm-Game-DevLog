@@ -1,0 +1,63 @@
+[gd_scene load_steps=8 format=3 uid="uid://s6301vaojedl"]
+
+[ext_resource type="Texture2D" uid="uid://4yevfxaggy8w" path="res://asset/UI/Sprite sheets/basic_UI_sprite.png" id="1_kjian"]
+[ext_resource type="Texture2D" uid="uid://cpcpdgdxyo3or" path="res://asset/UI/additional-emotes/speak-emote.png" id="2_17df2"]
+[ext_resource type="FontFile" uid="uid://bbdf2nkcy8yvg" path="res://asset/UI/fonts/pixelFont-7-8x14-sproutLands.ttf" id="3_4nw5j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwyv1"]
+atlas = ExtResource("1_kjian")
+region = Rect2(519, 136, 18, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sua2u"]
+atlas = ExtResource("2_17df2")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_euckq"]
+atlas = ExtResource("2_17df2")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i46wy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sua2u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_euckq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[node name="InteractableLabelComponent" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 18.0
+offset_bottom = 18.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+offset_right = 18.0
+offset_bottom = 18.0
+texture = SubResource("AtlasTexture_xwyv1")
+expand_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TextureRect"]
+position = Vector2(26, 9)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_i46wy")
+autoplay = "default"
+frame_progress = 0.275771
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 19.0
+offset_bottom = 19.0
+theme_override_fonts/font = ExtResource("3_4nw5j")
+theme_override_font_sizes/font_size = 8
+text = "E"
+horizontal_alignment = 1
+vertical_alignment = 1

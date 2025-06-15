@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://cchgg4k0dwg51"]
+[gd_scene load_steps=11 format=3 uid="uid://cchgg4k0dwg51"]
 
 [ext_resource type="Texture2D" uid="uid://rjydrefcmjvv" path="res://asset/game/characters/NPC Duck.png" id="1_c1ouq"]
 [ext_resource type="Shader" uid="uid://crg4oqgh5tr7e" path="res://scenes/characters/npc/replace_color.gdshader" id="1_jmrh2"]
-[ext_resource type="Script" uid="uid://bn5pdttrynmrr" path="res://scripts/state_machine/node_state_machine.gd" id="2_jmrh2"]
+[ext_resource type="Script" uid="uid://c2iaj6lxrk0fm" path="res://scenes/characters/npc/duck_npc_guide.gd" id="1_xgdvi"]
 [ext_resource type="PackedScene" uid="uid://cfiniueg7un01" path="res://scenes/components/interactable_component.tscn" id="3_qbl3i"]
+[ext_resource type="PackedScene" uid="uid://s6301vaojedl" path="res://scenes/components/interactable_label_component.tscn" id="4_xgdvi"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_qbl3i"]
 shader = ExtResource("1_jmrh2")
@@ -37,12 +38,15 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xgdvi"]
-radius = 35.0571
+radius = 20.025
 
 [node name="duck_npc" type="Node2D"]
+script = ExtResource("1_xgdvi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 material = SubResource("ShaderMaterial_qbl3i")
+position = Vector2(0, -9)
+scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_xefw8")
 animation = &"idle_front"
 autoplay = "idle_front"
@@ -51,9 +55,11 @@ frame_progress = 0.748601
 [node name="InteractableComponent" parent="." instance=ExtResource("3_qbl3i")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractableComponent"]
+position = Vector2(0, -11)
 shape = SubResource("CircleShape2D_xgdvi")
 
-[node name="state_machine" type="Node" parent="."]
-script = ExtResource("2_jmrh2")
-
-[node name="idle" type="Node" parent="state_machine"]
+[node name="InteractableLabelComponent" parent="." instance=ExtResource("4_xgdvi")]
+offset_left = -26.0
+offset_top = -38.0
+offset_right = -8.0
+offset_bottom = -20.0
