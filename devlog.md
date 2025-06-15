@@ -231,5 +231,6 @@
 ### Progress
   - Learn shaders to create different displays for NPC sprites  
   - Understood that script for shaders function differently, more akin to JavaScript or TypeScript  
-  - 
+  - Created UI indication for when NPC is interactable  
+    *Note: tried doing some basics of the script for the NPC interactable component*   
 
