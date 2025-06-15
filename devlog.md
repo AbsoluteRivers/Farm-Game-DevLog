@@ -230,6 +230,7 @@
 
 ### Progress
   - Learn shaders to create different displays for NPC sprites  
+  - Understood that script for shaders function differently, more akin to JavaScript or TypeScript  
   
 
 

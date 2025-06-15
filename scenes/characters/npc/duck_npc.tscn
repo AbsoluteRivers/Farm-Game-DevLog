@@ -1,0 +1,51 @@
+[gd_scene load_steps=8 format=3 uid="uid://cchgg4k0dwg51"]
+
+[ext_resource type="Texture2D" uid="uid://rjydrefcmjvv" path="res://asset/game/characters/NPC Duck.png" id="1_c1ouq"]
+[ext_resource type="Shader" uid="uid://crg4oqgh5tr7e" path="res://scenes/characters/npc/replace_color.gdshader" id="1_jmrh2"]
+[ext_resource type="Script" uid="uid://bn5pdttrynmrr" path="res://scripts/state_machine/node_state_machine.gd" id="2_jmrh2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qbl3i"]
+shader = ExtResource("1_jmrh2")
+shader_parameter/original_0 = Color(0.67451, 0.196078, 0.196078, 1)
+shader_parameter/original_1 = Color(0.85098, 0.341176, 0.388235, 1)
+shader_parameter/original_2 = Color(0.517647, 0.494118, 0.529412, 1)
+shader_parameter/replace_0 = Color(0.386708, 0.673689, 0.706968, 1)
+shader_parameter/replace_1 = Color(0.41704, 0.664864, 0.531552, 1)
+shader_parameter/replace_2 = Color(0.824356, 0.859773, 0.2866, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xgdvi"]
+atlas = ExtResource("1_c1ouq")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ooy7y"]
+atlas = ExtResource("1_c1ouq")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xefw8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xgdvi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ooy7y")
+}],
+"loop": true,
+"name": &"idle_front",
+"speed": 3.0
+}]
+
+[node name="duck_npc" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+material = SubResource("ShaderMaterial_qbl3i")
+position = Vector2(0, -12)
+sprite_frames = SubResource("SpriteFrames_xefw8")
+animation = &"idle_front"
+autoplay = "idle_front"
+frame_progress = 0.748601
+
+[node name="state_machine" type="Node" parent="."]
+script = ExtResource("2_jmrh2")
+
+[node name="idle" type="Node" parent="state_machine"]
