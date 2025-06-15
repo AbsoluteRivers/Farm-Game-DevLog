@@ -21,6 +21,7 @@ ToolManager="*res://scripts/globals/tool_manager.gd"
 InventoryManager="*res://scripts/globals/inventory_manager.gd"
 DayNightCycleManager="*res://scripts/globals/day_night_cycle_manager.gd"
 SaveGameManager="*res://scripts/globals/save_game_manager.gd"
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 
 [display]
 
@@ -36,10 +37,15 @@ window/stretch/scale_mode="integer"
 
 project/assembly_name="Farming Game"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+
 [file_customization]
 
 folder_colors={
 "res://asset/": "red",
+"res://dialogue/": "gray",
 "res://resources/": "yellow",
 "res://scenes/": "blue",
 "res://scripts/": "purple",

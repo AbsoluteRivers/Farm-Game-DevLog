@@ -11,9 +11,9 @@ shader = ExtResource("1_jmrh2")
 shader_parameter/original_0 = Color(0.67451, 0.196078, 0.196078, 1)
 shader_parameter/original_1 = Color(0.85098, 0.341176, 0.388235, 1)
 shader_parameter/original_2 = Color(0.517647, 0.494118, 0.529412, 1)
-shader_parameter/replace_0 = Color(0.386708, 0.673689, 0.706968, 1)
-shader_parameter/replace_1 = Color(0.41704, 0.664864, 0.531552, 1)
-shader_parameter/replace_2 = Color(0.824356, 0.859773, 0.2866, 1)
+shader_parameter/replace_0 = Color(0.00625563, 0.285114, 0.206286, 1)
+shader_parameter/replace_1 = Color(0.293153, 0.500225, 0.390424, 1)
+shader_parameter/replace_2 = Color(0.764036, 0.796637, 0.378005, 1)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xgdvi"]
 atlas = ExtResource("1_c1ouq")
