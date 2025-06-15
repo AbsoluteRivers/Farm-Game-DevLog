@@ -230,9 +230,10 @@
 
 ### Progress
   - Learn shaders to create different displays for NPC sprites  
-  - Understood that script for shaders function differently, more akin to JavaScript or TypeScript  
+  - Understood that script for shaders function differently, more akin to JavaScript or TypeScript language  
   - Created UI indication for when NPC is interactable  
-    *Note: tried doing some basics of the script for the NPC interactable component*  
+    *Note: tried doing some basics of the script for the NPC interactable component without help from tutorial*  
   - Learned how to access and use the Godot Asset Library  
   - Used add-on plugin Dialogue Manager by nathanhoad from Godot Asset library  
+  - Learn creating dialogues with help of DialogueManager plugin  
 
