@@ -222,6 +222,14 @@
 ### Progress
   - Learn interactable NPC characters  
     *Note: Might script out to overridew the interact button*  
+  - *Will create own NPC Character*  
 
+
+## Day 19 (6/15/2025)
+
+
+### Progress
+  - Learn shaders to create different displays for NPC sprites  
+  
 
 
